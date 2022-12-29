@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body:not(.fancy){
+            color: blue;
+            background-color: #dddd;
+        }
+
+        div:empty{
+            background-color: #222;
+            border: 2px solid red;
+            height: 100px;
+            width:100px;
+        }
+        :root{
+            background-color: #333;
+            color: #eee;
+        }
+        /* /p ne color body se inherit kar diya */
+        /*  root ka matlab root element ko select karna or html ka root element hota ha html. */
+    </style>
+    <title></title>
+</head>
+<body>
+    <h1>heading</h1>
+    <p class="fancy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde in veritatis praesentium dicta at error rerum nostrum natus officia aliquam?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde in veritatis praesentium dicta at error rerum nostrum natus officia aliquam?</p>
+    <div></div>
+    <div></div>
+</body>
+</html>
